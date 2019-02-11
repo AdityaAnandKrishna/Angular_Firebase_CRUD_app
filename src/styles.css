@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~ngx-toastr/toastr.css";
+
+.btn{
+  margin: 3px;
+}
+
+input.ng-invalid.ng-dirty{
+  border: 1px solid red;
+}
+
+button:hover,a.btn:hover{
+  cursor: pointer; 
+}
